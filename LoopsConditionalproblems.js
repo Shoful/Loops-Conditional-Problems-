@@ -64,8 +64,7 @@ function factorial(n) {
     return result;
   }
 }
-let n = (10);
-console.log(factorial(n));
+console.log(factorial(10));
 
 // D) Conditional Practice
 // Write an if statement and determine a condition where:
