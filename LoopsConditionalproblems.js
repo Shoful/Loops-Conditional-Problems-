@@ -7,13 +7,13 @@
 //3) Print the longest word to the console.  
 
 function foods() {
-  let lunchArray = ["Burger", "Salad", "Lasagna", "Sushi", "Meatloaf"];
+  let items = ["Burger", "Salad", "Lasagna", "Sushi", "Meatloaf"];
   let longest = 0;
   let longestword = "";
-  for (let i = 0; i < lunchArray.length; i++) {
-    if (lunchArray[i].length > longest) {
-      longest = lunchArray[i].length;
-      longestword = lunchArray[i];
+  for (let i = 0; i < items.length; i++) {
+    if (items[i].length > longest) {
+      longest = items[i].length;
+      longestword = items[i];
     }
   }
   console.log(longest);
@@ -26,8 +26,8 @@ console.log(foods());
 //Since all the words are in one string together, how would you solve this? 
 
 function foodies() {
-  let lunchArray = ["Burger Salad Lasagna Sushi Meatloaf"];
-  let arr = lunchArray[0].split(" ");
+  let items = ["Burger Salad Lasagna Sushi Meatloaf"];
+  let arr = items[0].split(" ");
   let longest = 0;
   let longestword = "";
   for (let i = 0; i < arr.length; i++) {
